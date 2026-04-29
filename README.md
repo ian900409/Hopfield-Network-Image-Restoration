@@ -15,7 +15,12 @@
 
 ### 1. 影像修復展示
 在此專案中，系統能成功將帶有高度隨機噪點的輸入影像，還原為儲存於網路中的原始記憶模式。
-![修復結果對照](./images/demo_result.png)
+
+![修復結果對照 - Hebbian Rule](./images/demo_hebb.png)
+*<sup>圖 1：Hebbian Rule 對於噪點影像之修復結果對照</sup>*
+
+![修復結果對照 - Psuedo Inverse](./images/demo_pinv.png)
+*<sup>圖 2：Psuedo Inverse 對於噪點影像之修復結果對照</sup>*
 
 ### 2. 演算法效能對比 (Hebbian vs. Pseudo-Inverse)
 根據實驗觀測，當記憶模式數量增加時：
