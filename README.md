@@ -31,17 +31,17 @@
 * **語言**：Python 3.11
 * **核心庫**：NumPy (矩陣運算)
 * **介面**：PyQt / UI Designer
-* **數據處理**：自定義data loader，處理 9x12 與 10*10 的二進位圖形數據。
+* **數據處理**：自定義data loader，處理 9x12 與 10*10 的二進位圖形數據
 
 ## 資料夾結構說明
-* `hopfield_core.py`: 聯想記憶網路核心邏輯與演算法。
-* `hopfield_gui.py` & `hopfield.ui`: 系統介面與互動邏輯。
-* `data_utils.py`: 資料預處理與檔案格式解析。
-* `Report.pdf`: 內含完整的數學推導、收斂軌跡圖及深入的心得分析。
+* `hopfield_core.py`: 聯想記憶網路核心邏輯與演算法
+* `hopfield_gui.py` & `hopfield.ui`: 系統介面與互動邏輯
+* `data_utils.py`: 資料預處理與檔案格式解析
+* `Report.pdf`: 包含完整的數學推導、收斂軌跡圖及深入的心得分析
 
-## 📄 完整技術報告
+## 完整技術報告
 關於Energy Function的收斂分析與更詳盡的測試數據，請參閱 [完整書面報告](./Report.pdf)。
 
 ---
 **開發心得**：
-透過這個專案，我深刻體會到統計背景在理解 Weight Matrix 與線性代數優化上的優勢。特別是 Pseudo-Inverse 的引入，讓我觀察到數學模型如何實質解決機器學習中的容量問題。
+透過這個專案，我深刻體會到統計背景在理解 Weight Matrix 與線性代數優化上的優勢，特別是 Pseudo-Inverse 的引入，讓我觀察到數學模型如何實質解決機器學習中的容量問題。
